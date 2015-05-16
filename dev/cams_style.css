@@ -1,0 +1,131 @@
+body {
+	margin: 0;
+	background: #444;
+	font-family: arial, verdana, sans-serif;
+	font-size: 11px;
+}
+
+.checkbox {
+	text-align:center;
+	background:none;
+	width:100%;
+	margin: 0 auto;	
+}
+.video_wrapper {
+	text-align:center;
+	background:none;
+	width:80%;
+	margin: 0 auto;	
+	#border-left: solid 1px #000;
+	#border-right: solid 1px #000;
+	#border-top: solid 1px #000;
+	#border-bottom: solid 1px #000;
+}
+
+.video {
+	text-align:center;
+	background:none;
+	width:100%;
+	margin: 0 auto;	
+	font-family: arial, verdana, sans-serif;
+	font-size: 9px;
+}
+
+.video img {
+	width:211px;
+	height:202px;
+	#width:169px;
+	#height:162px;
+	padding:1px;
+	background-color:#fff;
+}
+
+hr {
+	text-align: center;
+	width:65%; 
+	margin:0 auto;
+	border: 0;
+	border-top: 1px solid #000;
+}
+.page-wrapper {
+	position: absolute;
+	left:5%;
+	top: 0;
+	right: 5%;
+	bottom: auto;
+	margin-left: 0px;
+	margin-top: 3%;
+	width: 90%;
+	clear: both;
+	background: #655087;
+	border-left: solid 1px #000;
+	border-right: solid 1px #000;
+	border-top: solid 1px #000;
+	border-bottom: solid 1px #000;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+.page-wrapper .banner {
+	float:left;
+	margin-left:5%;
+	margin-top:2%;
+	width: 377px;
+	height: 78px;
+	background-image: url(logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	/*
+	border-left: solid 1px #000;
+	border-right: solid 1px #000;
+	border-top: solid 1px #000;
+	border-bottom: solid 1px #000;
+	*/
+}
+.page-wrapper .login {	
+	color: #FFF;
+	width:125px;
+	margin-top: 1%;
+	margin-left: 80%;
+	text-align: left;
+	/*
+	border-left: solid 1px #000;
+	border-right: solid 1px #000;
+	border-top: solid 1px #000;
+	border-bottom: solid 1px #000;
+	*/
+}
+.page-wrapper .login .login_button {
+	text-align: right;
+}
+
+.page-wrapper .logout {
+	color: #CCC;
+	text-align: right;
+	margin-right: 4%;
+	margin-top: 1%;
+	
+}
+.page-wrapper .logout a {
+	color: FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.foot {	
+    text-align: center;
+    font-size: 10px;
+    color: #000103;
+    line-height:15px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+	/*
+	border-left: solid 1px #000;
+	border-right: solid 1px #000;
+	border-top: solid 1px #000;
+	border-bottom: solid 1px #000;
+	*/
+}
